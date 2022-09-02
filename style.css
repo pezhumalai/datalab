@@ -1,0 +1,60 @@
+.txt-danger{
+    color:#dd5a43!important;
+}
+.txt-success{
+    color:#449d44!important;
+}
+.txt-info{
+    color:#00c0ef!important;
+}
+.txt-warinig{
+    color:orange!important;
+}
+
+.form-group{
+    font-size: 12px!important;
+}
+/* .table{
+    font-size: 14px!important;
+} */
+.error {
+    color: #ff0303b8 !important;
+}
+
+.blue {
+    color: #478fca!important;
+}
+.bigger-120 {
+    font-size: 120%!important;
+}
+.bigger-130 {
+    font-size: 130%!important;
+}
+.green {
+    color: #69aa46!important;
+}
+.red {
+    color: #dd5a43!important;
+}
+.orange {
+    color: #ffa500 !important;
+}
+.blue1{
+    color: #00bcd4 !important;
+}
+.white {
+    color: #fff;
+}
+.inline {
+    display: inline-block!important;
+}
+.com_name {
+    font-size: 35px;
+    color: #fff;
+}
+div.dataTables_wrapper div.dataTables_info {
+    float: left;
+}
+.red-text {
+    color: #f44336;
+}

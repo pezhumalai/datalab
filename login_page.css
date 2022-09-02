@@ -1,0 +1,234 @@
+.login-page {
+    background: #ffc107;
+    height: auto;
+}
+.page_content {
+    padding: 5% 15%;
+    border-radius: 5px;
+    /* height: 550px; */
+}
+.alert {
+    margin-bottom: 0;
+    padding: 5px;
+}
+.error_msg {
+    height: 50px;
+}
+.login_content {
+    width: 50%;
+    background-color: #fff;
+    height: 480px;
+    padding-bottom: 40px;
+}
+.enquiry {
+    width: 50%;
+    float: left;
+    background-color: #d0daff;
+    height: 480px;
+    padding: 20px;
+}
+.shop_detail {
+    padding: 0 20%;
+    text-align: center;
+    height: 50px;
+    width: 100%;
+    margin-top: 40px;
+}
+.shop_logo {
+    display: inline-block;
+}
+.shop_logo img {
+    float: left;
+    margin: 6px;
+}
+.shop_logo h3 {
+    float: left;
+}
+.shop_name {
+    float: left;
+}
+.shop_name h3 {
+    font-weight: 600;
+    margin-top: 12px;
+    margin-left: 10px;
+}
+.page_title {
+    width: 100%;
+    padding: 0 20%;
+    text-align: center;
+    padding-top: 20px;
+}
+.page_title h2 {
+    font-weight: 600;
+}
+.login_form {
+    padding: 0 15%;
+    padding-top: 10px;
+}
+.enquiry h2 {
+    text-align: center;
+}
+.enquiry_cont {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    height: 300px;
+}
+.enquiry_details {
+    padding: 0 25%;
+    width: 100%;
+    padding-top: 25px;
+}
+.detail {
+    display: inline-block;
+}
+.detail i {
+    float: left;
+    width: 50px;
+    padding: 5px;
+    font-size: 20px;
+    color:#3c8dbc;
+}
+.detail p {
+    float: left;
+    font-size: 18px;
+
+}
+.social_media {
+    width: 100%;
+    padding: 0 30%;
+    text-align: center;
+    height: 60px;
+}
+.social_media li {
+    list-style-type: none;
+    font-size: 25px;
+    float: left;
+    padding: 10px;
+}
+.copy_details {
+    width: 100%;
+    text-align: center;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .page_content { 
+        padding: 5%;
+    }
+    .enquiry { 
+        width: 100%;
+        height: auto;
+        padding: 0px;
+    }
+    .login_content { 
+        width: 100%;
+        height: auto;
+        padding-bottom: 20px;
+    }
+    .shop_detail {
+        padding: 0 15%;
+        margin-top: 20px;
+    }
+    .page_title {
+        padding: 0 15%;
+        padding-top: 10px;
+    }
+    .error_msg {
+        height: 40px;
+    }
+    .login_form {
+        padding: 0 5px;
+        padding-top: 5px;
+    }
+    .enquiry_details {
+        padding: 0 10%;
+    }
+    .enquiry_cont {
+        padding-top: 5px;
+        padding-bottom: 5px;
+        height: auto;
+    }
+    .social_media {
+        padding: 0 25%;
+        width: 100%;
+    }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .login_content { 
+        width: 100%;
+        height: auto;
+    }
+    .enquiry { 
+        width: 100%;
+        height: auto;
+    }
+    .enquiry_cont {
+        padding: 0;
+        height: auto;
+    }
+    .enquiry_details {
+        padding: 0 20%;
+    }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .page_content {
+        padding: 5% 10%;
+    }
+    .page_title {
+        padding: 0 15%;
+    }
+    .login_content { 
+        width: 50%;
+        height: auto;
+    }
+    .login_form {
+        padding: 0 10%;
+    }
+    .enquiry { 
+        width: 50%;
+        height: auto;
+    }
+    .enquiry_details {
+        padding: 0 10%;
+    }
+    .social_media {
+        padding: 0 20%;
+        height: 56px;
+    }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .page_content { 
+        padding: 5% 6%;
+    }
+    .login_content { 
+        width: 50%;
+        height: auto;
+    }
+    .enquiry_details {
+        padding: 0 20%;
+    }
+    .social_media {
+        padding: 0 30%;
+    }
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .login_content { 
+        width: 50%;
+        height: auto;
+        display: contents
+    }
+    .POST{
+        width: 670px;
+        padding-left: 180px;
+    }
+    .enquiry_details {
+        padding: 0 30%;
+    }
+    .social_media {
+        padding: 0 35%;
+    }
+}

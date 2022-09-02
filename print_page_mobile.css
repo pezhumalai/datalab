@@ -1,0 +1,346 @@
+@font-face {
+    font-family: 'BalooThambi2-Regular';
+    src: url('webfonts/BalooThambi2-Regular.eot');
+    src: url('webfonts/BalooThambi2-Regular.eot?#iefix') format('embedded-opentype'), url('webfonts/BalooThambi2-Regular.svg#BalooThambi2-Regular') format('svg'), url('webfonts/BalooThambi2-Regular.ttf') format('truetype'), url('webfonts/BalooThambi2-Regular.woff') format('woff'), url('webfonts/BalooThambi2-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    border: 2px solid #000;
+    /* width: 775px;
+    height: 550px; */
+    /* max-height: 595px; */
+    margin: 10px;
+}
+
+small {
+    font-size: 12px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    margin: 2px 0 !important
+}
+
+img {
+    width: 100%;
+}
+
+
+/* ---------------------------------- End Default ------------------------------ */
+
+
+/* ----------------------- Logo Section ------------ */
+.inv_center {
+    text-align: center;
+    margin-top: -10px;
+    margin-bottom: 0;
+}
+.logo_section {
+    display: block;
+    /* height: 80px;
+    max-height: 82px; */
+    height: 120px;
+    max-height: 130px;
+    padding: 10px;
+    border-bottom: 3px solid #000;
+}
+
+.logo_section .logo_inn_lft {
+    width: 15%;
+    display: inline-block;
+    margin-top: 5px;
+}
+
+.logo_section .logo_inn_lft img {
+    width: 100px;
+    height: auto;
+}
+
+.logo_section .logo_inn_rit {
+    width: 68%;
+    display: inline-block;
+    /* vertical-align: top; */
+    /* margin-top: 10px; */
+}
+
+.logo_section .logo_inn_rit h1 {
+    text-align: center;
+    font-size: 40px;
+    color: #f70504;
+}
+.logo_section .logo_inn_qr {
+    width: 100px;
+    height: auto;
+    display: inline-block;
+    position: absolute;
+    margin-top: 5px;
+}
+
+/* ---------------------- Address Section----------------- */
+
+.address {
+    width: 97.5%;
+    display: block;
+    height: 80px;
+    max-height: 105px;
+    padding: 10px;
+    font-size: 18px;
+    border-bottom: 3px solid #000;
+}
+
+.addr_inn_lft {
+    width: 37%;
+    display: inline-block;
+}
+
+.addr_inn_cnt {
+    /* width: 33%; */
+    display: inline-block;
+
+    /* new style */
+    margin: 0px 35px;
+    text-align: center;
+}
+
+.addr_inn_rit {
+    width: 24%;
+    display: inline-block;
+}
+
+
+/* ---------------------- Invoice Section----------------- */
+
+.invoice_section {
+    width: 97.5%;
+    display: block;
+    height: 45px;
+    max-height: 80px;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.invoice_section .row1 {
+    width: 60%;
+    display: inline-block;
+    /* height: 30px; */
+}
+
+.invoice_section .row2 {
+    width: 35%;
+    display: inline-block;
+    /* height: 30px; */
+    vertical-align: top;
+    float: right;
+}
+
+.invoice_section .row1 .cli_det_lft,
+.invoice_section .row2 .inv_det_lft {
+    width: 70%;
+    display: inline-block;
+}
+
+/* .invoice_section .row1 .cli_det_cnt,
+.invoice_section .row2 .inv_det_cnt {
+    width: 100%;
+    display: inline-block;
+}
+
+.invoice_section .row1 .cli_det_rit,
+.invoice_section .row2 .inv_det_rit {
+    width: 100%;
+    display: inline-block;
+} */
+
+
+/* -------------------------- Table section -------------------------  */
+
+.blk {
+    display: block
+}
+
+.blk_in {
+    display: inline-block
+}
+
+.brdr_bot {
+    border-bottom: 1px solid
+}
+
+.brdr_top {
+    border-top: 1px solid;
+    width: 100%;
+    display: inline-block;
+}
+
+.lhs {
+    float: left;
+    padding: 5px
+}
+
+.cntr {
+    float: left;
+    text-align: center;
+    padding: 5px
+}
+
+.rhs {
+    float: right;
+    text-align: center;
+    padding: 5px
+}
+
+.content {
+    height: 300px;
+    max-height: 310px;
+}
+
+.content.brdr_top.brdr_bot table {
+    width: 100%;
+    display: block;
+    height: 300px;
+    max-height: 350px;
+}
+
+.content.brdr_top.brdr_bot table thead,
+.content.brdr_top.brdr_bot table tr {
+    width: 100%;
+    display: block;
+}
+
+.tax {
+    width: 97.5%;
+    display: block;
+    height: 15px;
+    border-bottom: 1px solid #000;
+    padding: 10px;
+    ;
+}
+.tax .amt_words {
+    width: 74%;
+    display: inline-block;
+    font-size: 12px;
+}
+/* .tax .sbttl {
+    width: 15%;
+    display: inline-block;
+} */
+
+.tax .sgst {
+    width: 10%;
+    display: inline-block;
+}
+
+.tax .cgst {
+    width: 10%;
+    display: inline-block;
+}
+.tax .sbttl {
+    width: 25%;
+    float: right;
+}
+.tax .grnd_ttl {
+    width: 25%;
+    float: right;
+    display: inline-block;
+    font-size: 14px;
+}
+
+
+/* ------------------------Official Section ---------------------- */
+
+.official {
+    width: 100%;
+    display: block;
+    height: 40px;
+    max-height: 40px;
+    border-bottom: 1px solid #000;
+}
+
+
+/* .off_lft {
+    width: 68%;
+    display: inline-block;
+}
+
+.off_rit {
+    width: 30%;
+    display: inline-block;
+} */
+
+.official p {
+    float: right;
+    margin: 10px 50px;
+    font-size: 18px;
+}
+
+.dealership {
+    width: 97.5%;
+    display: block;
+    height: 50px;
+    max-height: 55px;
+    border-bottom: 1px solid #000;
+    padding: 0 10px;
+}
+
+.dealership p {
+    float: left;
+    margin-right: 30px;
+    font-size: 18px;
+    margin: 0px;
+    padding: 5px 0px;
+}
+
+.dealership p small {
+    font-size: 18px;
+    color: #fe0000
+}
+
+
+/* ------------------------ End Dealer Section ---------------------- */
+
+.condition {
+    font-size: 10px;
+    line-height: 2;
+    height: 250px;
+    padding: 0 10px;
+    text-align: justify;
+    padding-right: 40px;
+}
+
+/* .cus_sign {
+    width: 97.5%;
+    height: 30px;
+    max-height: 30px;
+    padding: 0 10px;
+    margin-top: -30px;
+} */
+
+.cus_sign1 {
+    text-align: right;
+    margin-top: 0px;
+    margin-right: 50px;
+}
+
+.cus_sign1 p {
+    font-size: 12px;
+    /* float: right; */
+    margin-right: 10px;
+}
+
+.for_sign {
+    margin-bottom: 50px;
+}
+
+.sign {
+    margin-right: 10px;
+}
+
+.sign_cus {
+    text-align: center;
+    margin-top: -57px;
+    font-size: 12px;
+}
